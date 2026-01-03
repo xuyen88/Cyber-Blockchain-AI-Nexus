@@ -23,3 +23,6 @@ Hãy thực hiện chuỗi hành động sau chỉ bằng Terminal:
 
 ## ✅ Hoàn thành
 Nếu bạn tạo được file mà không cần click chuột phải, bạn đã xong Ngày 2! Hãy cập nhật cảm nhận của bạn vào đây.
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/2a165ebc-8afe-4622-99c1-a6b9bc066429" />
+
