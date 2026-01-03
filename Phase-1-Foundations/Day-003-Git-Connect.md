@@ -34,6 +34,6 @@ Trong An ninh mạng, việc quản lý remote rất quan trọng. Hacker có th
 Tại thư mục chứa file cần kiểm tra:
 1. Cách xóa hoàn toàn liên kết (Remove): `git remote remove origin`
 2. Cách kiểm tra liên kết hiện tại (View): `git remote -v`
-3. Cách thay đổi liên kết (Update/Set-url): git remote set-url origin <Link_Repo_Mới>
+3. Cách thay đổi liên kết (Update/Set-url): `git remote set-url origin <Link_Repo_Mới>`
 
 
