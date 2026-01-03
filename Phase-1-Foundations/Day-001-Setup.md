@@ -22,3 +22,5 @@ Cài đặt môi trường làm việc tiêu chuẩn để thực hành An ninh 
 Nếu màn hình hiện số phiên bản (Ví dụ: Python 3.12.x), bạn đã hoàn thành ngày đầu tiên! Hãy chụp ảnh màn hình hoặc ghi chú lại cảm xúc của bạn vào file này.
 
 <img width="1483" height="762" alt="image" src="https://github.com/user-attachments/assets/dc456df9-73f4-4084-b030-863de015e0d6" />
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/2a939aba-497f-4ec3-be39-d4eb50c8dbd1" />
