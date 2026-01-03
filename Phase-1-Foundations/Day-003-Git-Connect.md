@@ -21,6 +21,9 @@
    Để đẩy code lên, bạn cần copy link Repo của mình (ví dụ: `https://github.com/xuyen88/Cyber-Blockchain-AI-Nexus.git`) và gõ:
    - `git remote add origin <Link_Repo_Của_Bạn>`
    - `git push -u origin main` (Đẩy mọi thứ lên mây!).
+  
+<img width="902" height="357" alt="So sánh 2 lệnh" src="https://github.com/user-attachments/assets/02186c04-00c3-49e4-bff4-4605971c45fd" />
+
 
 ## ⚡ Thử thách
 Hãy thử sửa nội dung file `hello.txt` trên máy tính, sau đó dùng lệnh `git add .`, `git commit` và `git push` để thấy sự thay đổi trên GitHub mà không cần dùng chuột.
