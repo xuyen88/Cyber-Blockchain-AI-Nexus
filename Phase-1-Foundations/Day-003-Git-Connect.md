@@ -27,3 +27,8 @@
 
 ## ⚡ Thử thách
 Hãy thử sửa nội dung file `hello.txt` trên máy tính, sau đó dùng lệnh `git add .`, `git commit` và `git push` để thấy sự thay đổi trên GitHub mà không cần dùng chuột.
+
+⚠️ Một lưu ý quan trọng về bảo mật (Cybersecurity):
+Trong An ninh mạng, việc quản lý remote rất quan trọng. Hacker có thể lén thay đổi địa chỉ origin để hướng code của bạn đẩy về máy chủ của họ thay vì GitHub.
+
+Để kiểm tra xem máy mình đang kết nối với địa chỉ nào, bạn có thể gõ: `git remote -v`
