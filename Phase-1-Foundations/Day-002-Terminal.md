@@ -18,7 +18,7 @@ Hãy thực hiện chuỗi hành động sau chỉ bằng Terminal:
 1. Gõ `cd Desktop` để ra màn hình chính.
 2. Gõ `mkdir Nexus_Test` để tạo thư mục tên Nexus_Test.
 3. Gõ `cd Nexus_Test` để đi vào thư mục đó.
-4. Tạo một file tên là `hello.txt`. Sử dụng lệnh **`type nul > hello.txt`** trên Node.js hoặc **`ni hello.txt`** trên PowerShell.
+4. Tạo một file tên là `hello.txt`. Sử dụng lệnh **`type nul > hello.txt`** trên Node.js hoặc **`ni hello.txt`** trên PowerShell hoặc **`touch hello.txt`** trên Linux / macOS / Git Bash.
 5. Gõ `ls` (hoặc `dir`) để kiểm tra xem file đã xuất hiện chưa.
 
 ## ✅ Hoàn thành
