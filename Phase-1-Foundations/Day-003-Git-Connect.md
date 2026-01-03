@@ -15,6 +15,7 @@
    - `git init` (Để máy tính hiểu đây là một thư mục Git).
    - `git add .` (Chuẩn bị đóng gói tất cả file trong thư mục).
    - `git commit -m "Bài tập ngày 3"` (Ghi chú cho đợt đóng gói này).
+   - `git push origin master` (lệnh này giúp cập nhật file trên github sau khi thay đổi trên máy tính).
 
 3. **Lệnh "Thần thánh":**
    Để đẩy code lên, bạn cần copy link Repo của mình (ví dụ: `https://github.com/xuyen88/Cyber-Blockchain-AI-Nexus.git`) và gõ:
