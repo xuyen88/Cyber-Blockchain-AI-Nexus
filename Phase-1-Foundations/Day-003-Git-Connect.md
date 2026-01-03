@@ -31,4 +31,9 @@ Hãy thử sửa nội dung file `hello.txt` trên máy tính, sau đó dùng l�
 ⚠️ Một lưu ý quan trọng về bảo mật (Cybersecurity):
 Trong An ninh mạng, việc quản lý remote rất quan trọng. Hacker có thể lén thay đổi địa chỉ origin để hướng code của bạn đẩy về máy chủ của họ thay vì GitHub.
 
-Để kiểm tra xem máy mình đang kết nối với địa chỉ nào, bạn có thể gõ: `git remote -v`
+Tại thư mục chứa file cần kiểm tra:
+1. Cách xóa hoàn toàn liên kết (Remove): `git remote remove origin`
+2. Cách kiểm tra liên kết hiện tại (View): `git remote -v`
+3. Cách thay đổi liên kết (Update/Set-url): git remote set-url origin <Link_Repo_Mới>
+
+
