@@ -22,7 +22,7 @@
    - `git remote add origin <Link_Repo_Của_Bạn>`
    - `git push -u origin main` (Đẩy mọi thứ lên mây!).
   
-<img width="902" height="357" alt="So sánh 2 lệnh" src="https://github.com/user-attachments/assets/02186c04-00c3-49e4-bff4-4605971c45fd" />
+<img width="800" height="300" alt="So sánh 2 lệnh" src="https://github.com/user-attachments/assets/02186c04-00c3-49e4-bff4-4605971c45fd" />
 
 
 ## ⚡ Thử thách
