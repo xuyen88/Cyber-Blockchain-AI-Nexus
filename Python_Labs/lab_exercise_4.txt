@@ -1,0 +1,2 @@
+Ngày học số 4: Thực hành Python Automation.
+Đây là tệp tin thứ 4 được tạo ra hoàn toàn tự động.
