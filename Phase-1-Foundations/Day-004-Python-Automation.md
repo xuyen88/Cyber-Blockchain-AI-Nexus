@@ -34,10 +34,19 @@ for i in range(1, 11):
 print("\n--- Chúc mừng! Bạn đã hoàn thành bài thực hành Day 04 ---")
 ```
 
-3. Chạy chương trình trên máy tính:
+### 3. Chạy chương trình trên máy tính:
 Mở Terminal tại thư mục Nexus_Test và gõ lệnh:
 
 Bash
 
-python day_04_automation.py
+`python day_04_automation.py`
 Kết quả: Kiểm tra thư mục Python_Labs vừa xuất hiện trên máy tính với 10 file bên trong chỉ trong tích tắc.
+
+### 4. Lưu trữ lên GitHub:
+Sử dụng bộ lệnh Git để cập nhật thành quả thực hành lên nhánh master:
+
+Bash
+
+`git add .`
+`git commit -m "Hoàn thành Day 004: Python Automation"`
+`git push origin master`
