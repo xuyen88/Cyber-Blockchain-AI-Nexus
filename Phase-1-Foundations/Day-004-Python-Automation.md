@@ -40,6 +40,7 @@ Mở Terminal tại thư mục Nexus_Test và gõ lệnh:
 Bash
 
 `python day_04_automation.py`
+
 Kết quả: Kiểm tra thư mục Python_Labs vừa xuất hiện trên máy tính với 10 file bên trong chỉ trong tích tắc.
 
 ### 4. Lưu trữ lên GitHub:
@@ -48,5 +49,7 @@ Sử dụng bộ lệnh Git để cập nhật thành quả thực hành lên nh
 Bash
 
 `git add .`
+
 `git commit -m "Hoàn thành Day 004: Python Automation"`
+
 `git push origin master`
