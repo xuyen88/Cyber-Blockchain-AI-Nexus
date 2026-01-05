@@ -32,3 +32,12 @@ for i in range(1, 11):
     print(f"Đã tạo: {file_path}")
 
 print("\n--- Chúc mừng! Bạn đã hoàn thành bài thực hành Day 04 ---")
+```
+
+3. Chạy chương trình trên máy tính:
+Mở Terminal tại thư mục Nexus_Test và gõ lệnh:
+
+Bash
+
+python day_04_automation.py
+Kết quả: Kiểm tra thư mục Python_Labs vừa xuất hiện trên máy tính với 10 file bên trong chỉ trong tích tắc.
