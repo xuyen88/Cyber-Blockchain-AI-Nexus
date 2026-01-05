@@ -31,7 +31,7 @@ for i in range(1, 11):
         f.write("Hoàn thành bởi Python Automation!")
     print(f"Đã tạo: {file_path}")
 
-print("\n--- Chúc mừng! Bạn đã hoàn thành bài thực hành Day 04 ---")
+print("\n--- Chúc mừng! Bạn đã hoàn thành bài thực hành Day 04 ---")```
 
 
 <img width="883" height="630" alt="day004" src="https://github.com/user-attachments/assets/2b24e262-ea49-4779-8fc1-0ad72d5bdeca" />
