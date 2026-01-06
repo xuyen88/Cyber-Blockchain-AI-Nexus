@@ -31,3 +31,4 @@ else:
     print(f"⚠️ Bạn cần thêm {18 - age} năm nữa để đủ tuổi.")
 
 print("\n--- Hoàn thành bài thực hành Day 05 ---")
+```
