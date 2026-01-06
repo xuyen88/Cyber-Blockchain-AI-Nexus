@@ -1,17 +1,17 @@
-# Day 005: Xử lý dữ liệu nhập từ người dùng (User Input & Logic)
+# **Day 005: Xử lý dữ liệu nhập từ người dùng (User Input & Logic)**
 
-## 🎯 Mục tiêu
+## **🎯 Mục tiêu**
 Học cách tương tác với người dùng thông qua hàm `input()`, xử lý kiểu dữ liệu và sử dụng cấu trúc điều kiện `if-else` để đưa ra phản hồi thông minh.
 
 ---
 
-## 🛠 Các bước thực hiện (15 phút)
+## **🛠 Các bước thực hiện (15 phút)**
 
-### 1. Chuẩn bị môi trường:
+### **1. Chuẩn bị môi trường:**
 * Mở thư mục `Nexus_Test` bằng **VS Code**.
 * Tạo một tệp mới tên là: `day_05_input.py`.
 
-### 2. Viết mã nguồn (Scripting):
+### **2. Viết mã nguồn (Scripting):**
 Copy và dán đoạn mã sau vào file `day_05_input.py`:
 
 ```python
@@ -31,4 +31,3 @@ else:
     print(f"⚠️ Bạn cần thêm {18 - age} năm nữa để đủ tuổi.")
 
 print("\n--- Hoàn thành bài thực hành Day 05 ---")
-```
