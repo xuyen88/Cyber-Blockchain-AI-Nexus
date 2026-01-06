@@ -49,3 +49,6 @@ Sử dụng bộ lệnh Git để cập nhật thành quả thực hành lên nh
 `git commit -m "Hoàn thành Day 005: User Input and Logic"`
 
 `git push origin master`
+
+![Uploading day005.png…]()
+
