@@ -50,5 +50,5 @@ Sử dụng bộ lệnh Git để cập nhật thành quả thực hành lên nh
 
 `git push origin master`
 
-![Uploading day005.png…]()
+<img width="1482" height="767" alt="day005" src="https://github.com/user-attachments/assets/d8b3644e-b35e-48d5-b6dd-e1986a137dda" />
 
