@@ -31,3 +31,21 @@ else:
     print(f"⚠️ Bạn cần thêm {18 - age} năm nữa để đủ tuổi.")
 
 print("\n--- Hoàn thành bài thực hành Day 05 ---")
+```
+
+### 3. Chạy chương trình trên máy tính:
+Mở Terminal tại thư mục Nexus_Test và gõ lệnh:
+
+`python day_05_input.py`
+
+Kết quả: Chương trình sẽ hỏi tên, tuổi và in ra thông báo tương ứng với dữ liệu bạn nhập.
+
+### 4. Lưu trữ lên GitHub:
+Sử dụng bộ lệnh Git để cập nhật thành quả thực hành lên nhánh master:
+
+
+`git add .`
+
+`git commit -m "Hoàn thành Day 005: User Input and Logic"`
+
+`git push origin master`
