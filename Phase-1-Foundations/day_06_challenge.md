@@ -1,4 +1,4 @@
-⚡ Thử thách (Lọc dữ liệu)
+⚡ Thử thách (Lọc dữ liệu):
 Thực hiện vòng lặp để lọc ra các số lớn hơn 10 từ danh sách: [1, 5, 8, 12, 15].
 
 ```python
@@ -15,3 +15,4 @@ for num in numbers:
 
 print("--- Hoàn thành thử thách! ---")
 ```
+
