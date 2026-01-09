@@ -33,3 +33,7 @@ for person in students:
         print(f"📩 Đã gửi tài liệu cho: {person}")
 
 print("\n--- Tất cả thông báo đã được gửi thành công ---")
+```
+
+### ⚡ Thử thách (Lọc dữ liệu): Thực hiện vòng lặp để lọc ra các số lớn hơn 10 từ danh sách: [1, 5, 8, 12, 15].
+
