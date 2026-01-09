@@ -1,3 +1,7 @@
+⚡ Thử thách (Lọc dữ liệu)
+Thực hiện vòng lặp để lọc ra các số lớn hơn 10 từ danh sách: [1, 5, 8, 12, 15].
+
+```python
 # 1. Danh sách số ban đầu
 numbers = [1, 5, 8, 12, 15, 22, 7, 30]
 
@@ -10,3 +14,4 @@ for num in numbers:
         print(f"👉 Số: {num}")
 
 print("--- Hoàn thành thử thách! ---")
+```
