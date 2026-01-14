@@ -22,8 +22,8 @@ thong_bao_nhiem_vu("AI Assistant", "999")
 ```
 
 
-## **Thử thách: **
-Tạo hàm `tinh_tong` để thực hiện phép cộng toán học.
+## Thử thách:
+### ⚡ Tạo hàm `tinh_tong` để thực hiện phép cộng toán học.
 
 ```python
 # Hàm tính tổng hai số
