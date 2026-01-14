@@ -20,11 +20,16 @@ def thong_bao_nhiem_vu(ten, ngay_hoc):
 thong_bao_nhiem_vu("Xuyen", "007")
 thong_bao_nhiem_vu("AI Assistant", "999")
 ```
-* Tạo hàm `tinh_tong` để thực hiện phép cộng toán học.
 
-### **Mã nguồn chính:**
+
+## **Thử thách: **
+Tạo hàm `tinh_tong` để thực hiện phép cộng toán học.
+
 ```python
+# Hàm tính tổng hai số
 def tinh_tong(a, b):
-    print(f"Tổng là: {a + b}")
+    tong = a + b
+    print(f"➡️ Kết quả phép cộng {a} + {b} = {tong}")
 
-tinh_tong(10, 20)
+# Chạy thử
+tinh_tong(15, 25)
