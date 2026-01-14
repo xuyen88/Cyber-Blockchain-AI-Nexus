@@ -7,9 +7,8 @@ Học cách sử dụng `def` để tạo các khối mã có thể tái sử d�
 
 ## **🛠 Thực hành**
 * Tạo hàm `thong_bao_nhiem_vu` để in thông tin người dùng.
-
-  ```python
-1. Định nghĩa hàm (Khai báo chiếc hộp công cụ)
+```python
+# 1. Định nghĩa hàm (Khai báo chiếc hộp công cụ)
 def thong_bao_nhiem_vu(ten, ngay_hoc):
     print(f"--- [NEXUS SYSTEM MONITOR] ---")
     print(f"Chào học viên: {ten}")
@@ -17,10 +16,10 @@ def thong_bao_nhiem_vu(ten, ngay_hoc):
     print(f"Trạng thái: Hoạt động bình thường.")
     print("-" * 30 + "\n")
 
- 2. Gọi hàm (Lấy công cụ ra dùng)
+ # 2. Gọi hàm (Lấy công cụ ra dùng)
 thong_bao_nhiem_vu("Xuyen", "007")
 thong_bao_nhiem_vu("AI Assistant", "999")
-  ```
+```
 * Tạo hàm `tinh_tong` để thực hiện phép cộng toán học.
 
 ### **Mã nguồn chính:**
