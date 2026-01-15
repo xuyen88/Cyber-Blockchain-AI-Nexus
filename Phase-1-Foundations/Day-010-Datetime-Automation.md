@@ -94,8 +94,8 @@ if __name__ == "__main__":
 ### Phân tích kỹ thuật (Dành cho Kỹ sư hệ thống):
 1. Cấu trúc dữ liệu: File JSON sẽ lưu dưới dạng một Mảng các Đối tượng (Array of Objects). Điều này cho phép bạn dễ dàng truy vấn hoặc lọc dữ liệu theo thời gian sau này.
 
-Ví dụ cấu trúc file: [{"timestamp": "...", "content": "..."}, {...}].
+Ví dụ cấu trúc file: `[{"timestamp": "...", "content": "..."}, {...}]`.
 
-2. Tính toàn vẹn của dữ liệu: Sử dụng os.path.exists đảm bảo bạn không xóa mất nhật ký của những ngày trước đó khi chạy script vào ngày hôm sau.
+2. Tính toàn vẹn của dữ liệu: Sử dụng `os.path.exists` đảm bảo bạn không xóa mất nhật ký của những ngày trước đó khi chạy script vào ngày hôm sau.
 
-3. Định dạng chuẩn: Việc dùng strftime("%d/%m/%Y %H:%M:%S") giúp log của bạn có thể đọc được bởi cả con người và các hệ thống phân tích dữ liệu khác.
+3. Định dạng chuẩn: Việc dùng `strftime("%d/%m/%Y %H:%M:%S")` giúp log của bạn có thể đọc được bởi cả con người và các hệ thống phân tích dữ liệu khác.
