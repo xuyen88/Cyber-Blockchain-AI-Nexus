@@ -87,11 +87,12 @@ if __name__ == "__main__":
 
 2. `re.match(json_pattern, f)`:
 
-.*: Nghĩa là bất kỳ ký tự nào, lặp lại bao nhiêu lần cũng được.
+    `.*`: Nghĩa là bất kỳ ký tự nào, lặp lại bao nhiêu lần cũng được.
 
-`\.json`: Tìm đúng cụm chữ `.json`.
+    `\.json`: Tìm đúng cụm chữ `.json`.
 
-`$`: Ký hiệu neo (anchor) trong Regex, bắt buộc chuỗi phải kết thúc tại đó. Điều này giúp tránh trường hợp file tên là `test.json.txt` bị nhận nhầm.
+    `$`: Ký hiệu neo (anchor) trong Regex, bắt buộc chuỗi phải kết thúc tại đó. Điều này giúp tránh trường hợp file tên là `test.json.txt` bị nhận nhầm.
 
 3. `enumerate(..., 1)`: Một mẹo nhỏ để đánh số thứ tự danh sách bắt đầu từ số 1 khi in ra màn hình.
+   
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/88e38482-b7c6-4742-a50e-386c24c1484b" />
