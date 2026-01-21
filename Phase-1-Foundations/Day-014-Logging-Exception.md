@@ -121,4 +121,5 @@ Chạy file: `python day_14_challenge.py`.
 Nhập một file có thật (ví dụ: `web_data.json`) và một file không có thật (ví dụ: `hacker.exe`).
 
 Mở file `access_monitor.log` vừa xuất hiện trong thư mục Nexus_Test` để xem thành quả.
+
 <img width="1482" height="757" alt="image" src="https://github.com/user-attachments/assets/fe00720a-75f1-496b-b58e-e05fd1d66115" />
