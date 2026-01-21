@@ -39,11 +39,11 @@ if __name__ == "__main__":
 ```
 
 ### ⚡ Thử thách Day 013 (Sắp xếp hệ thống)
-Hãy viết một file day_13_challenge.py thực hiện nhiệm vụ sau:
+Hãy viết một file `day_13_challenge.py` thực hiện nhiệm vụ sau:
 
-1. Liệt kê toàn bộ các file trong thư mục Nexus_Test.
+1. Liệt kê toàn bộ các file trong thư mục `Nexus_Test`.
 
-2. Sử dụng kiến thức Day 012 (Regex) hoặc hàm .endswith() để lọc ra danh sách các file có đuôi .json.
+2. Sử dụng kiến thức Day 012 (Regex) hoặc hàm `.endswith()` để lọc ra danh sách các file có đuôi `.json`.
 
 3. In ra màn hình: "Tìm thấy [số lượng] file dữ liệu quan trọng (.json)".
 
@@ -82,4 +82,16 @@ def quet_file_du_lieu():
 if __name__ == "__main__":
     quet_file_du_lieu()
 ```
+### Giải thích kỹ thuật cho Kỹ sư hệ thống:
+1. `os.path.abspath(target_dir)`: Hàm này giúp bạn in ra đường dẫn đầy đủ từ ổ đĩa (C:...), rất hữu ích khi bạn cần kiểm tra chính xác vị trí mình đang thao tác.
+
+2. `re.match(json_pattern, f)`:
+
+.*: Nghĩa là bất kỳ ký tự nào, lặp lại bao nhiêu lần cũng được.
+
+`\.json`: Tìm đúng cụm chữ `.json`.
+
+`$`: Ký hiệu neo (anchor) trong Regex, bắt buộc chuỗi phải kết thúc tại đó. Điều này giúp tránh trường hợp file tên là `test.json.txt` bị nhận nhầm.
+
+3. `enumerate(..., 1)`: Một mẹo nhỏ để đánh số thứ tự danh sách bắt đầu từ số 1 khi in ra màn hình.
 <img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/88e38482-b7c6-4742-a50e-386c24c1484b" />
