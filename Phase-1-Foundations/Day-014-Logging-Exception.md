@@ -115,11 +115,12 @@ if __name__ == "__main__":
 
       ERROR: Dùng cho các lỗi mã nguồn hoặc lỗi hệ điều hành.
 ##
-Cách kiểm tra kết quả:
-Chạy file: `python day_14_challenge.py`.
+### Cách kiểm tra kết quả:
 
-Nhập một file có thật (ví dụ: `web_data.json`) và một file không có thật (ví dụ: `hacker.exe`).
+1. Chạy file: `python day_14_challenge.py`.
 
-Mở file `access_monitor.log` vừa xuất hiện trong thư mục Nexus_Test` để xem thành quả.
+2. Nhập một file có thật (ví dụ: `web_data.json`) và một file không có thật (ví dụ: `hacker.exe`).
+
+3. Mở file `access_monitor.log` vừa xuất hiện trong thư mục Nexus_Test` để xem thành quả.
 
 <img width="1482" height="757" alt="image" src="https://github.com/user-attachments/assets/fe00720a-75f1-496b-b58e-e05fd1d66115" />
