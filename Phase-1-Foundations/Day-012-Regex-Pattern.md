@@ -43,3 +43,34 @@ def trich_xuat_tong_hop(text):
 
 if __name__ == "__main__":
     trich_xuat_tong_hop(raw_data)
+```
+
+### ⚡ Thử thách Day 012 (Thợ săn IP)
+Trong an ninh mạng, bạn thường xuyên phải lọc địa chỉ IP từ file Log. Hãy tạo `file day_12_challenge.py`:
+
+1. Cho một chuỗi dữ liệu: `"Server 1: 192.168.1.1, Server 2: 10.0.0.255, Database: 172.16.254.1"`.
+
+2. Viết một Pattern Regex để tìm tất cả các địa chỉ IP trong chuỗi đó.
+
+3. Gợi ý: Một địa chỉ IP có định dạng `Số.Số.Số.Số` (Mỗi phần có từ 1-3 chữ số).
+
+   
+```python
+import re
+
+log_data = "Server 1: 192.168.1.1, Server 2: 10.0.0.255, Database: 172.16.254.1"
+
+def loc_dia_chi_ip(text):
+    # Pattern: Tìm 4 cụm số (1-3 chữ số) cách nhau bởi dấu chấm thực sự (\.)
+    ip_pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
+    ips = re.findall(ip_pattern, text)
+    
+    print("--- 🌐 DANH SÁCH IP TRÍCH XUẤT ---")
+    for ip in ips:
+        print(f"Detected IP: {ip}")
+
+loc_dia_chi_ip(log_data)
+```
+
+<img width="1920" height="1140" alt="image" src="https://github.com/user-attachments/assets/c9943b5a-cfb1-4367-a24f-9b1ed3c61f9a" />
+
