@@ -109,8 +109,8 @@ if __name__ == "__main__":
 
 3. Mức độ nghiêm trọng (Level):
 
-  INFO: Dùng cho các sự kiện bình thường (người dùng tìm thấy file).
+      INFO: Dùng cho các sự kiện bình thường (người dùng tìm thấy file).
 
-  WARNING: Dùng cho các sự việc bất thường nhưng chưa làm sập hệ thống (người dùng nhập sai tên file).
+      WARNING: Dùng cho các sự việc bất thường nhưng chưa làm sập hệ thống (người dùng nhập sai tên file).
 
-  ERROR: Dùng cho các lỗi mã nguồn hoặc lỗi hệ điều hành.
+      ERROR: Dùng cho các lỗi mã nguồn hoặc lỗi hệ điều hành.
