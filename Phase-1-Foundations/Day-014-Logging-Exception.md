@@ -114,3 +114,10 @@ if __name__ == "__main__":
       WARNING: Dùng cho các sự việc bất thường nhưng chưa làm sập hệ thống (người dùng nhập sai tên file).
 
       ERROR: Dùng cho các lỗi mã nguồn hoặc lỗi hệ điều hành.
+##
+Cách kiểm tra kết quả:
+Chạy file: `python day_14_challenge.py`.
+
+Nhập một file có thật (ví dụ: `web_data.json`) và một file không có thật (ví dụ: `hacker.exe`).
+
+Mở file `access_monitor.log` vừa xuất hiện trong thư mục Nexus_Test` để xem thành quả.
